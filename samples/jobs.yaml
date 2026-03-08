@@ -1,0 +1,5 @@
+jobs:
+  - name: users_sync
+    source: samples/source.json
+    target: samples/target.json
+    batch_size: 2
